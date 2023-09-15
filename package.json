@@ -1,0 +1,29 @@
+{
+  "name": "fechaiso",
+  "version": "1.2.0",
+  "description": "Funciones para trabajar con fechas iso",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:w": "nodemon .",
+    "build": "tsc",
+    "build:p": "webpack"
+  },
+  "keywords": [
+    "date",
+    "isodate"
+  ],
+  
+  "author": "aramirez",
+  "license": "ISC",
+  "dependencies": {
+    "zfill": "0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
